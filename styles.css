@@ -1,0 +1,55 @@
+footer p{
+    color: rgb(15, 1, 12);
+    font-size: 20px;
+    margin-top: 29px;
+}
+.small-icon{
+    width: 50px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(170deg,#ed1b50, #d6c6c6);
+    height: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    text-align: center;
+    width: 300px;
+    background: while;
+    padding:20px;
+    box-shadow: 0 4px 8px rgba(0,0,0.1,0.1)
+
+}
+.logo {
+    width: 200px;
+    margin-bottom: 0px;
+}
+.pofile hl {
+    font-size: 18px;
+    color: #171616;
+    margin-bottom: 30px;
+}
+.links .link{
+    display:block;
+    text-decoration: none;
+    background-color: #e891ae;
+    color: rgb(8, 13, 13);
+    padding: 15px 0;
+    margin: 10px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+
+} 
+.links .link:hover{
+    background-color: #efe1e7;
+    box-shadow: 0 6px 8px rgba(172, 62, 62, 0.15);
+    
+}
